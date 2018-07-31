@@ -1,0 +1,1 @@
+/home/chirag/public_html/ves_fasony/vendor/magento/module-braintree/view/frontend/web/js/cc-data.js

@@ -1,0 +1,1 @@
+/home/chirag/public_html/ves_fasony/vendor/magento/module-cookie/view/frontend/web/js/require-cookie.js

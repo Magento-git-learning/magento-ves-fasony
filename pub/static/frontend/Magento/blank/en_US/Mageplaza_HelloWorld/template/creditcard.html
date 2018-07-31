@@ -1,0 +1,67 @@
+<form id="form-checkout-creditcard">
+   <div class="refund-bottom-right">
+       <div class="input-box name-card">
+           <label data-bind="i18n: 'Name on card'"></label>
+           <input name="cc_name" type="text" data-bind="text: title" id="webpos_cc_name"/>
+       </div>
+       <div class="input-box credit-card-type expiration-date">
+           <label data-bind="i18n: 'Credit Card Type'"></label>
+           <div class="input-box">
+               <select name="cc_type" class="selectpicker" id="webpos_cc_type"
+                       data-validate="{'required-entry':true}">
+                   <option value=""></option>
+                   <option value="AE">American Express</option>
+                   <option value="VI">Visa</option>
+                   <option value="MC">MasterCard</option>
+                   <option value="DI">Discover</option>
+               </select>
+           </div>
+       </div>
+       <div class="input-box credit-card-number">
+           <label data-bind="i18n: 'Credit Card Number'"></label>
+           <input name="cc_number" type="text" id="webpos_cc_number"
+                  data-validate="{'required-entry':true}"/>
+       </div>
+       <div class="input-box expiration-date">
+           <label data-bind="i18n: 'Expiration Date'"></label>
+           <div class="input-box">
+               <select name="cc_exp_month" class="selectpicker" id="webpos_cc_exp_month"
+                       data-validate="{'required-entry':true}">
+                   <option value="">Month</option>
+                   <option value="1">01 - January</option>
+                   <option value="2">02 - February</option>
+                   <option value="3">03 - March</option>
+                   <option value="4">04 - April</option>
+                   <option value="5">05 - May</option>
+                   <option value="6">06 - June</option>
+                   <option value="7">07 - July</option>
+                   <option value="8">08 - August</option>
+                   <option value="9">09 - September</option>
+                   <option value="10">10 - October</option>
+                   <option value="11">11 - November</option>
+                   <option value="12">12 - December</option>
+               </select>
+               <select name="cc_exp_year" class="selectpicker" id="webpos_cc_exp_year"
+                       data-validate="{'required-entry':true}">
+                   <<option value="">Year</option>
+                   <option value="2016">2016</option>
+                   <option value="2017">2017</option>
+                   <option value="2018">2018</option>
+                   <option value="2019">2019</option>
+                   <option value="2020">2020</option>
+                   <option value="2021">2021</option>
+                   <option value="2022">2022</option>
+                   <option value="2023">2023</option>
+                   <option value="2024">2024</option>
+                   <option value="2025">2025</option>
+                   <option value="2026">2026</option>
+               </select>
+           </div>
+       </div>
+   </div>
+   <div class="actions">      
+       <div class="col-sm-6">
+           <button id="checkout_button" class="checkout-actions button btn-cl-cfg-active" data-bind="click:submitForm, i18n:'Submit'"></button>
+       </div>
+   </div>
+</form>

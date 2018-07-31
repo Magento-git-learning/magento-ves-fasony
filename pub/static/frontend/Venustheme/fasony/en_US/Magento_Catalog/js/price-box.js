@@ -1,0 +1,1 @@
+/home/chirag/public_html/ves_fasony/vendor/magento/module-catalog/view/base/web/js/price-box.js

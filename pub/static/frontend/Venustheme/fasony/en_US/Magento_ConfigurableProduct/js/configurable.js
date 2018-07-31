@@ -1,0 +1,1 @@
+/home/chirag/public_html/ves_fasony/vendor/magento/module-configurable-product/view/frontend/web/js/configurable.js

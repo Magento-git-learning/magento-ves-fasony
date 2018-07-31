@@ -1,0 +1,1 @@
+/home/chirag/public_html/ves_fasony/vendor/magento/module-authorizenet/view/frontend/web/js/view/payment/authorizenet.js

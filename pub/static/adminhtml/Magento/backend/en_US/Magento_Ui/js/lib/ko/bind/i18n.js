@@ -1,0 +1,1 @@
+/home/chirag/public_html/ves_fasony/vendor/magento/module-ui/view/base/web/js/lib/ko/bind/i18n.js

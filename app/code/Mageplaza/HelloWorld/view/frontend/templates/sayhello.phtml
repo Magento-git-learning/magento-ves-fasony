@@ -1,0 +1,54 @@
+<strong>All products</strong>
+<?php
+
+/**
+ * @var \Mageplaza\HelloWorld\Block\Display $block
+ */
+
+$productCollection = $block->getProductCollection();
+foreach ($productCollection as $product) {
+ 
+    echo"<pre>"; 	
+    echo $product->getName().'<br>';
+    echo $product->getId();	 
+    
+    echo"</pre>";	
+    
+echo "<br>";
+}
+
+?>
+<strong>Products in minicart</strong>
+<?php 
+
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$cart = $objectManager->get('\Magento\Checkout\Model\Cart'); 
+$items = $cart->getQuote()->getAllItems();
+ 
+foreach($items as $item) {
+    echo 'ID: '.$item->getProductId().'<br />';
+    echo 'Name: '.$item->getName().'<br />';
+    echo 'Sku: '.$item->getSku().'<br />';
+    echo 'Quantity: '.$item->getQty().'<br />';
+    echo 'Price: '.$item->getPrice().'<br />';
+    echo "<br />";            
+}
+
+?>
+<strong>Log in customer details</strong>
+<?php 
+
+$om = \Magento\Framework\App\ObjectManager::getInstance();
+$customerSession = $om->get('Magento\Customer\Model\Session');
+if($customerSession->isLoggedIn()) {
+
+   echo '<br>';	
+   echo 'id:'.$customerSession->getCustomer()->getId().'<br>';
+   echo 'Name:'.$customerSession->getCustomer()->getName().'<br>'; 
+   echo 'Email:'.$customerSession->getCustomer()->getEmail().'<br>';
+   echo 'Group id:'.$customerSession->getCustomer()->getGroupId().'<br>'; // get Customer Group Id
+}
+?>
+
+</body>
+</html>

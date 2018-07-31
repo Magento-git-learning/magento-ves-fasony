@@ -1,0 +1,1 @@
+/home/chirag/public_html/ves_fasony/vendor/magento/theme-frontend-blank/web/js/theme.js

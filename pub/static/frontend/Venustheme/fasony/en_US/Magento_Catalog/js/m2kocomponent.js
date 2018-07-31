@@ -1,0 +1,1 @@
+/home/chirag/public_html/ves_fasony/app/design/frontend/Venustheme/fasony/Magento_Catalog/web/js/m2kocomponent.js

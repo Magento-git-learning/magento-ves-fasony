@@ -1,0 +1,1 @@
+/home/chirag/public_html/ves_fasony/vendor/magento/module-captcha/view/frontend/web/js/model/captcha.js

@@ -1,0 +1,1 @@
+/home/chirag/public_html/ves_fasony/vendor/magento/module-sales/view/frontend/web/js/view/last-ordered-items.js

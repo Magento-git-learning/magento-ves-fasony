@@ -1,0 +1,4312 @@
+{
+    "packages": {
+        "magento/sample-data-media": {
+            "name": "magento/sample-data-media",
+            "description": "Sample Data media files",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/sample-data-media/magento-sample-data-media-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "3b94f0122e8c8e111d428e150d73a9e9a279401b"
+            },
+            "type": "magento2-component",
+            "extra": {
+                "map": [
+                    [
+                        "*",
+                        "pub/media"
+                    ]
+                ]
+            },
+            "vendor": "magento"
+        },
+        "magento/framework-message-queue": {
+            "name": "magento/framework-message-queue",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/framework-message-queue/magento-framework-message-queue-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "f6e6aaadc5795bab8aaf5c3bc072633df82d0d96"
+            },
+            "type": "magento2-library",
+            "autoload": {
+                "psr-4": {
+                    "Magento\\Framework\\MessageQueue\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "require": {
+                "magento/framework": "102.0.*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-message-queue": {
+            "name": "magento/module-message-queue",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-message-queue/magento-module-message-queue-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "ef3550d8c0ce7d77479654ca58a2013215b28763"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\MessageQueue\\": ""
+                }
+            },
+            "require": {
+                "magento/framework": "102.0.*",
+                "magento/magento-composer-installer": "*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-advanced-search": {
+            "name": "magento/module-advanced-search",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-advanced-search/magento-module-advanced-search-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "164f7371cc14ac1fbda864297ee89eb19fde578b"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\AdvancedSearch\\": ""
+                }
+            },
+            "require": {
+                "magento/framework": "102.0.*",
+                "magento/module-backend": "101.0.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-catalog-search": "101.0.*",
+                "magento/module-config": "101.1.*",
+                "magento/module-customer": "102.0.*",
+                "magento/module-search": "101.0.*",
+                "magento/module-store": "100.3.*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-mysql-mq": {
+            "name": "magento/module-mysql-mq",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-mysql-mq/magento-module-mysql-mq-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "291bf39bb02d4ce5448d6d3ef858a38a49764bb2"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\MysqlMq\\": ""
+                }
+            },
+            "require": {
+                "magento/framework": "102.0.*",
+                "magento/magento-composer-installer": "*",
+                "magento/module-store": "100.3.*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-amqp": {
+            "name": "magento/module-amqp",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-amqp/magento-module-amqp-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "c687b6f88670a0d53f050801e42fc27238f2b26e"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\Amqp\\": ""
+                }
+            },
+            "require": {
+                "magento/framework": "102.0.*",
+                "magento/framework-amqp": "100.3.*",
+                "magento/framework-message-queue": "100.3.*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-grouped-product-sample-data": {
+            "name": "magento/module-grouped-product-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-grouped-product-sample-data/magento-module-grouped-product-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "33891c874eb2e5ecb16b653a0e49523a844c98b4"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\GroupedProductSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-sample-data": "100.3.*",
+                "magento/module-catalog-sample-data": "100.3.*",
+                "magento/module-grouped-product": "100.3.*",
+                "magento/module-store": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-catalog-sample-data": {
+            "name": "magento/module-catalog-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-catalog-sample-data/magento-module-catalog-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "18d9fbc1432daad86028d9d8e0d39551a5ea8651"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\CatalogSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-sample-data": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-customer-sample-data": {
+            "name": "magento/module-customer-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-customer-sample-data/magento-module-customer-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "53c18f6bb8522f6f5f574711e3d0b76521313314"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\CustomerSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-sample-data": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-downloadable-sample-data": {
+            "name": "magento/module-downloadable-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-downloadable-sample-data/magento-module-downloadable-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "4d941a88d390ecb2061738423126c51b76acb605"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\DownloadableSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-sample-data": "100.3.*",
+                "magento/module-catalog-sample-data": "100.3.*",
+                "magento/module-downloadable": "100.3.*",
+                "magento/sample-data-media": "100.3.*",
+                "magento/module-store": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-offline-shipping-sample-data": {
+            "name": "magento/module-offline-shipping-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-offline-shipping-sample-data/magento-module-offline-shipping-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "b3a73d3026de991a4852bdbbad41c2197534cf7b"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\OfflineShippingSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-sample-data": "100.3.*",
+                "magento/module-offline-shipping": "100.3.*",
+                "magento/module-directory": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-theme-sample-data": {
+            "name": "magento/module-theme-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-theme-sample-data/magento-module-theme-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "68f6593040c46382243f4ffead96cd2f43e60979"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\ThemeSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-theme": "101.0.*",
+                "magento/module-sample-data": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-sales-sample-data": {
+            "name": "magento/module-sales-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-sales-sample-data/magento-module-sales-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "9e5204632186fcfbe6c37cf99dbab52d3457cc3f"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\SalesSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-sales": "102.0.*",
+                "magento/module-sample-data": "100.3.*",
+                "magento/module-configurable-sample-data": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-product-links-sample-data": {
+            "name": "magento/module-product-links-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-product-links-sample-data/magento-module-product-links-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "d28040aff2197caaac99b32837b95d189d5d811c"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\ProductLinksSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-catalog-sample-data": "100.3.*",
+                "magento/module-sample-data": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-configurable-sample-data": {
+            "name": "magento/module-configurable-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-configurable-sample-data/magento-module-configurable-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "cc3811e733391d08fd259c80fdf70365f2b4d91a"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\ConfigurableSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-configurable-product": "100.3.*",
+                "magento/module-sample-data": "100.3.*",
+                "magento/module-product-links-sample-data": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-sales-rule-sample-data": {
+            "name": "magento/module-sales-rule-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-sales-rule-sample-data/magento-module-sales-rule-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "e07285d27c796021ccf34c6f23705b5b3ac55632"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\SalesRuleSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-sample-data": "100.3.*",
+                "magento/module-catalog-rule-sample-data": "100.3.*",
+                "magento/module-sales-rule": "101.1.*",
+                "magento/module-eav": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-swatches-sample-data": {
+            "name": "magento/module-swatches-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-swatches-sample-data/magento-module-swatches-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "42d688e66aee3d27a1ebbbcc9865511c7303b1b2"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\SwatchesSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-swatches": "100.3.*",
+                "magento/module-sample-data": "100.3.*",
+                "magento/module-eav": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-wishlist-sample-data": {
+            "name": "magento/module-wishlist-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-wishlist-sample-data/magento-module-wishlist-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "e095a26f936e4b0bcd63be67c1350c664dfad16c"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\WishlistSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-wishlist": "101.1.*",
+                "magento/module-sample-data": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-bundle-sample-data": {
+            "name": "magento/module-bundle-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-bundle-sample-data/magento-module-bundle-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "02d7b3a2ceb0cc6ea80ba81f91e593a28bf74bcd"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\BundleSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-bundle": "100.3.*",
+                "magento/module-sample-data": "100.3.*",
+                "magento/module-catalog-sample-data": "100.3.*",
+                "magento/module-store": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-widget-sample-data": {
+            "name": "magento/module-widget-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-widget-sample-data/magento-module-widget-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "162549e6c11db680d97dbc847ce922336a5a8918"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\WidgetSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-widget": "101.1.*",
+                "magento/module-sample-data": "100.3.*",
+                "magento/module-theme": "101.0.*",
+                "magento/module-cms": "102.1.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-catalog-rule-sample-data": {
+            "name": "magento/module-catalog-rule-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-catalog-rule-sample-data/magento-module-catalog-rule-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "d5b1e5cfe076da2603967ca80b642202b215071b"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\CatalogRuleSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-catalog-rule": "101.1.*",
+                "magento/module-sample-data": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-msrp-sample-data": {
+            "name": "magento/module-msrp-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-msrp-sample-data/magento-module-msrp-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "6b565eabb66250d876d9d04f4a002e88915e80a1"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\MsrpSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-sample-data": "100.3.*",
+                "magento/module-msrp": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-review-sample-data": {
+            "name": "magento/module-review-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-review-sample-data/magento-module-review-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "a5be098b30a28c810305563aaa626803ec320ed4"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\ReviewSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-sample-data": "100.3.*",
+                "magento/module-review": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-tax-sample-data": {
+            "name": "magento/module-tax-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-tax-sample-data/magento-module-tax-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "2a4d71753972fb4714f873bfabb2f75b7a3c9d26"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\TaxSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-tax": "100.3.*",
+                "magento/module-sample-data": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-cms-sample-data": {
+            "name": "magento/module-cms-sample-data",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-cms-sample-data/magento-module-cms-sample-data-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "9f288d882ff57bd5fdfb4992297d935eaa61e25c"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\CmsSampleData\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-cms": "102.1.*",
+                "magento/module-sample-data": "100.3.*",
+                "magento/module-theme-sample-data": "100.3.*",
+                "magento/sample-data-media": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "dotmailer/dotmailer-magento2-extension": {
+            "name": "dotmailer/dotmailer-magento2-extension",
+            "description": "dotmailer integration for magento 2",
+            "keywords": [],
+            "homepage": "",
+            "version": "2.5.0",
+            "version_normalized": "2.5.0.0",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Calin Diacon",
+                    "email": "calin.diacon@dotmailer.com"
+                },
+                {
+                    "name": "Adeel Qamar",
+                    "email": "adeel.qamar@dotmailer.com"
+                },
+                {
+                    "name": "Zygimantas",
+                    "email": "zygimantas.simkus@dotmailer.com"
+                }
+            ],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/dotmailer/dotmailer-magento2-extension/dotmailer-dotmailer-magento2-extension-2.5.0.0.zip",
+                "reference": null,
+                "shasum": "7a1c72694c12b2011faf02ef580e3026d6d0fda3"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Dotdigitalgroup\\Email\\": ""
+                }
+            },
+            "require": {
+                "magento/framework": ">=100 <102",
+                "magento/module-newsletter": "100.*",
+                "magento/module-review": "100.*",
+                "magento/module-sales": ">=100 <102",
+                "magento/module-sales-rule": ">=100 <102",
+                "magento/module-wishlist": ">=100 <102",
+                "magento/module-store": "100.*",
+                "magento/module-config": ">=100 <102",
+                "magento/module-backend": "100.*",
+                "magento/module-checkout": "100.*",
+                "magento/module-ui": ">=100 <102",
+                "magento/module-rule": "100.*",
+                "magento/module-cron": "100.*",
+                "magento/module-customer": ">=100 <102",
+                "magento/module-eav": ">=100 <102",
+                "magento/module-catalog": ">=101 <103",
+                "magento/module-catalog-rule": ">=100 <102",
+                "magento/module-catalog-inventory": "100.*",
+                "magento/module-quote": ">=100 <102",
+                "magento/module-directory": "100.*",
+                "magento/module-shipping": "100.*",
+                "magento/module-payment": "100.*",
+                "magento/module-user": ">=100 <102",
+                "magento/module-reports": "100.*",
+                "magento/module-email": "100.*",
+                "magento/module-send-friend": "100.*",
+                "magento/module-product-alert": "100.*",
+                "magento/module-theme": "100.*"
+            },
+            "require-dev": {
+                "phpmd/phpmd": "@stable",
+                "magento/marketplace-eqp": "dev-master",
+                "squizlabs/php_codesniffer": "@stable"
+            },
+            "vendor": "dotmailer"
+        },
+        "shopialfb/facebook-module": {
+            "name": "shopialfb/facebook-module",
+            "description": "Connect your shop to Facebook page",
+            "keywords": [],
+            "homepage": "",
+            "version": "2.2.1",
+            "version_normalized": "2.2.1.0",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/shopialfb/facebook-module/shopialfb-facebook-module-2.2.1.0.zip",
+                "reference": null,
+                "shasum": "c2b6e6b9dc67212a538f453f0a2324de2a15f4a4"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Shopial\\Facebook\\": ""
+                }
+            },
+            "vendor": "shopialfb"
+        },
+        "amzn/amazon-pay-and-login-magento-2-module": {
+            "name": "amzn/amazon-pay-and-login-magento-2-module",
+            "description": "Official Magento2 Plugin to integrate with Amazon Pay and Login with Amazon",
+            "keywords": [],
+            "homepage": "",
+            "version": "2.0.4",
+            "version_normalized": "2.0.4.0",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/amzn/amazon-pay-and-login-magento-2-module/amzn-amazon-pay-and-login-magento-2-module-2.0.4.0.zip",
+                "reference": null,
+                "shasum": "c0a208f7b517a3505e3b982088f8f7c171c591b2"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "src/Core/registration.php",
+                    "src/Login/registration.php",
+                    "src/Payment/registration.php"
+                ],
+                "psr-4": {
+                    "Amazon\\Core\\": "src/Core",
+                    "Amazon\\Login\\": "src/Login",
+                    "Amazon\\Payment\\": "src/Payment"
+                }
+            },
+            "require": {
+                "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+                "magento/framework": "^100.1.0|^101.0.0",
+                "magento/module-sales": "^100.1.0|^101.0.0",
+                "magento/module-checkout": "^100.1.0|^100.2.0",
+                "magento/module-payment": "^100.1.0|^100.2.0",
+                "magento/module-eav": "^100.1.0|^101.0.0",
+                "magento/module-developer": "^100.1.0|^100.2.0",
+                "magento/module-config": "^100.1.0|^101.0.0",
+                "magento/module-backend": "^100.1.0|100.2.0",
+                "magento/module-quote": "^100.1.0|^101.0.0",
+                "magento/module-customer": "^100.1.0|^101.0.0",
+                "magento/module-store": "^100.1.0|^100.2.0",
+                "amzn/amazon-pay-sdk-php": "^3.2.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "^6.2.0",
+                "phpunit/phpunit": "4.1.0",
+                "behat/behat": "^3.1.0",
+                "behat/mink": "^1.7.1",
+                "behat/mink-extension": "^2.2",
+                "behat/mink-goutte-driver": "^1.2.1",
+                "behat/mink-selenium2-driver": "^1.3.1",
+                "sensiolabs/behat-page-object-extension": "^2.0.0",
+                "bex/behat-magento2-init": "dev-master",
+                "ciaranmcnulty/behat-stepthroughextension": "dev-master"
+            },
+            "vendor": "amzn"
+        },
+        "klarna/module-core": {
+            "name": "klarna/module-core",
+            "description": "Klarna Core Magento 2 Extension",
+            "keywords": [],
+            "homepage": "",
+            "version": "4.2.3",
+            "version_normalized": "4.2.3.0",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Constant",
+                    "email": "joe.constant@klarna.com"
+                },
+                {
+                    "name": "Jason Grim",
+                    "email": "jason.grim@klarna.com"
+                },
+                {
+                    "name": "Fei Chen",
+                    "email": "fei.chen@klarna.com"
+                }
+            ],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/klarna/module-core/klarna-module-core-4.2.3.0.zip",
+                "reference": null,
+                "shasum": "df6b76c353c85e24be2374a51913736eb208e088"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "Klarna\\Core\\": "."
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "require": {
+                "php": "^5.6|~7.0.13|~7.1.0",
+                "guzzlehttp/guzzle": "^6.0",
+                "magento/framework": "^100.1||^101.0",
+                "magento/module-bundle": "^100.1",
+                "magento/module-catalog": "^102.0",
+                "magento/module-config": "^101.0",
+                "magento/module-customer": "^101.0",
+                "magento/module-directory": "^100.1",
+                "magento/module-payment": "^100.2",
+                "magento/module-paypal": "^100.2",
+                "magento/module-quote": "^101.0",
+                "magento/module-sales": "^101.0",
+                "magento/module-store": "^100.1",
+                "magento/module-tax": "^100.1",
+                "ramsey/uuid": "^3.7",
+                "psr/log": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.2.0",
+                "phpmd/phpmd": "@stable",
+                "pdepend/pdepend": "^2.5",
+                "friendsofphp/php-cs-fixer": "~2.1.1",
+                "lusitanian/oauth": "~0.8.10",
+                "sebastian/phpcpd": "2.0.4",
+                "mikey179/vfsstream": "^1.6",
+                "phpro/grumphp": "^0.12.1",
+                "theseer/phpdox": "^0.10.1",
+                "phploc/phploc": "^4.0",
+                "squizlabs/php_codesniffer": "^3.2",
+                "jakub-onderka/php-parallel-lint": "^0.9.2",
+                "jakub-onderka/php-console-highlighter": "^0.3.2",
+                "magento-ecg/coding-standard": "^3.1"
+            },
+            "conflict": {
+                "magento/module-payment": "100.0.8 || 100.1.3"
+            },
+            "vendor": "klarna"
+        },
+        "klarna/module-kp": {
+            "name": "klarna/module-kp",
+            "description": "Klarna Payments Magento 2 Extension",
+            "keywords": [],
+            "homepage": "",
+            "version": "5.2.3",
+            "version_normalized": "5.2.3.0",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Constant",
+                    "email": "joe.constant@klarna.com"
+                },
+                {
+                    "name": "Jason Grim",
+                    "email": "jason.grim@klarna.com"
+                }
+            ],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/klarna/module-kp/klarna-module-kp-5.2.3.0.zip",
+                "reference": null,
+                "shasum": "1140b2c58ddf7915e54a808aff9bdf866192387d"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "Klarna\\Kp\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "require": {
+                "php": "^5.6|~7.0.13|~7.1.0",
+                "klarna/module-core": "^4.0",
+                "klarna/module-ordermanagement": "^4.0",
+                "magento/framework": "^100.1||^101.0",
+                "magento/module-checkout": "^100.1",
+                "magento/module-customer": "^100.1||^101.0",
+                "magento/module-directory": "^100.1",
+                "magento/module-payment": "^100.1",
+                "magento/module-quote": "^100.1||^101.0",
+                "magento/module-sales": "^100.1||^101.0",
+                "magento/module-store": "^100.1"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "~2.1.1",
+                "jakub-onderka/php-console-highlighter": "^0.3.2",
+                "jakub-onderka/php-parallel-lint": "^0.9.2",
+                "lusitanian/oauth": "~0.8.10",
+                "mikey179/vfsstream": "^1.6",
+                "pdepend/pdepend": "^2.5",
+                "phploc/phploc": "^4.0",
+                "phpmd/phpmd": "@stable",
+                "phpro/grumphp": "^0.12.1",
+                "phpunit/phpunit": "~6.2.0",
+                "sebastian/phpcpd": "2.0.4",
+                "squizlabs/php_codesniffer": "^3.2",
+                "theseer/phpdox": "^0.10.1",
+                "magento/framework": "^101.0.0",
+                "magento-ecg/coding-standard": "^3.1"
+            },
+            "replace": {
+                "klarna/module-enterprise": "*"
+            },
+            "vendor": "klarna"
+        },
+        "magento/module-security": {
+            "name": "magento/module-security",
+            "description": "Security management module",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-security/magento-module-security-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "50b09b61b920713091e409abe79cf7f4202e8ae2"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\Security\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-backend": "101.0.*",
+                "magento/module-store": "100.3.*",
+                "magento/module-user": "101.1.*"
+            },
+            "suggest": {
+                "magento/module-customer": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-swatches-layered-navigation": {
+            "name": "magento/module-swatches-layered-navigation",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-swatches-layered-navigation/magento-module-swatches-layered-navigation-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "fc9a17a9c536fd2a7f3b48adb7f05ec4f8589765"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\SwatchesLayeredNavigation\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/magento-composer-installer": "*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-vault": {
+            "name": "magento/module-vault",
+            "description": "",
+            "keywords": [],
+            "homepage": "",
+            "version": "101.1.0-alpha55",
+            "version_normalized": "101.1.0.0-alpha55",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-vault/magento-module-vault-101.1.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "74c24c6aaf677edc6f615b793e627c7c912a7274"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\Vault\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-checkout": "100.3.*",
+                "magento/module-customer": "102.0.*",
+                "magento/module-payment": "100.3.*",
+                "magento/module-quote": "101.1.*",
+                "magento/module-sales": "102.0.*",
+                "magento/module-store": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-elasticsearch": {
+            "name": "magento/module-elasticsearch",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-elasticsearch/magento-module-elasticsearch-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "491c09bc760ff38889da6795daa8e83a6e92c2cd"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\Elasticsearch\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-advanced-search": "100.3.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-catalog-search": "101.0.*",
+                "magento/module-customer": "102.0.*",
+                "magento/module-eav": "102.0.*",
+                "magento/module-search": "101.0.*",
+                "magento/module-store": "100.3.*",
+                "magento/module-catalog-inventory": "100.3.*",
+                "magento/framework": "102.0.*",
+                "elasticsearch/elasticsearch": "~2.0|~5.1"
+            },
+            "suggest": {
+                "magento/module-config": "101.1.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-sales-inventory": {
+            "name": "magento/module-sales-inventory",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-sales-inventory/magento-module-sales-inventory-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "ae7baf0b9059a1b170b27023ad5892b6d0d32888"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\SalesInventory\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-catalog-inventory": "100.3.*",
+                "magento/module-sales": "102.0.*",
+                "magento/module-store": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-robots": {
+            "name": "magento/module-robots",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-robots/magento-module-robots-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "a391e51e1e8fc4e68dc2c0cc422a76c7c2eda970"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\Robots\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-store": "100.3.*"
+            },
+            "suggest": {
+                "magento/module-theme": "101.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/framework-bulk": {
+            "name": "magento/framework-bulk",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/framework-bulk/magento-framework-bulk-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "8be11b1202664b06e3eb3863f6ce7401178ddb5e"
+            },
+            "type": "magento2-library",
+            "autoload": {
+                "psr-4": {
+                    "Magento\\Framework\\Bulk\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "require": {
+                "magento/framework": "102.0.*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "vendor": "magento"
+        },
+        "magento/framework-amqp": {
+            "name": "magento/framework-amqp",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/framework-amqp/magento-framework-amqp-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "32d7d25a72a0e37a12652a020e17a431348bef7d"
+            },
+            "type": "magento2-library",
+            "autoload": {
+                "psr-4": {
+                    "Magento\\Framework\\Amqp\\": ""
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "require": {
+                "magento/framework": "102.0.*",
+                "php": "~7.1.3||~7.2.0",
+                "php-amqplib/php-amqplib": "~2.7.0"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-asynchronous-operations": {
+            "name": "magento/module-asynchronous-operations",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-asynchronous-operations/magento-module-asynchronous-operations-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "053b868f8fb5591f94ada5a8df66cc0365f88328"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\AsynchronousOperations\\": ""
+                }
+            },
+            "require": {
+                "magento/framework": "102.0.*",
+                "magento/framework-bulk": "100.3.*",
+                "magento/module-authorization": "100.3.*",
+                "magento/module-backend": "101.0.*",
+                "magento/module-ui": "101.1.*",
+                "magento/module-user": "101.1.*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "suggest": {
+                "magento/module-admin-notification": "100.3.*",
+                "magento/module-logging": "101.1.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-signifyd": {
+            "name": "magento/module-signifyd",
+            "description": "Submitting Case Entry to Signifyd on Order Creation",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-signifyd/magento-module-signifyd-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "db64c99cf6ec04c988653274a98267ce871dcb1f"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\Signifyd\\": ""
+                }
+            },
+            "require": {
+                "magento/framework": "102.0.*",
+                "magento/module-backend": "101.0.*",
+                "magento/module-checkout": "100.3.*",
+                "magento/module-config": "101.1.*",
+                "magento/module-customer": "102.0.*",
+                "magento/module-directory": "100.3.*",
+                "magento/module-payment": "100.3.*",
+                "magento/module-sales": "102.0.*",
+                "magento/module-store": "100.3.*",
+                "php": "~7.1.3||~7.2.0"
+            },
+            "suggest": {
+                "magento/module-config": "101.1.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-shared-catalog": {
+            "name": "magento/module-shared-catalog",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.0.5",
+            "version_normalized": "100.0.5.0",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-shared-catalog/magento-module-shared-catalog-100.0.5.0.zip",
+                "reference": null,
+                "shasum": "d4dfe54870c038ca0c53b5c7ec2f4213bf3291c6"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\SharedCatalog\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.0.13|~7.1.0",
+                "magento/framework": "101.0.*",
+                "magento/module-asynchronous-operations": "100.2.*",
+                "magento/module-authorization": "100.2.*",
+                "magento/module-b2b": "100.0.*",
+                "magento/module-backend": "100.2.*",
+                "magento/module-catalog": "102.0.5",
+                "magento/module-catalog-permissions": "100.2.*",
+                "magento/module-company": "100.0.5",
+                "magento/module-config": "101.0.*",
+                "magento/module-customer": "101.0.5",
+                "magento/module-eav": "101.0.*",
+                "magento/module-quote": "101.0.4",
+                "magento/module-store": "100.2.4",
+                "magento/module-tax": "100.2.5",
+                "magento/module-ui": "101.0.5",
+                "magento/module-user": "101.0.*"
+            },
+            "suggest": {
+                "magento/module-advanced-checkout": "100.2.*",
+                "magento/module-customer-segment": "101.0.3",
+                "magento/module-directory": "100.2.4",
+                "magento/module-downloadable": "100.2.*",
+                "magento/module-sales-rule": "101.0.3"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-configurable-product-sales": {
+            "name": "magento/module-configurable-product-sales",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-configurable-product-sales/magento-module-configurable-product-sales-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "505a9d5b9690e539fd6ffb4a0fc0609fa53e3362"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\ConfigurableProductSales\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-sales": "102.0.*",
+                "magento/module-store": "100.3.*"
+            },
+            "suggest": {
+                "magento/module-configurable-product": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "temando/module-shipping-m2": {
+            "name": "temando/module-shipping-m2",
+            "description": "Temando multi-carrier shipping extension for Magento 2",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.2.7",
+            "version_normalized": "1.2.7.0",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Christoph A\u00dfmann",
+                    "email": "christoph.assmann@netresearch.de",
+                    "homepage": "https://www.netresearch.de/",
+                    "role": "Developer"
+                }
+            ],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/temando/module-shipping-m2/temando-module-shipping-m2-1.2.7.0.zip",
+                "reference": null,
+                "shasum": "bb8fbe0cdca9498ac65bf91fa282e8a59e62fe74"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Temando\\Shipping\\": ""
+                }
+            },
+            "require": {
+                "php": "7.0.2|7.0.4|~7.0.6|~7.1.0",
+                "magento/framework": "^101.0.0",
+                "magento/module-backend": "^100.2.0",
+                "magento/module-catalog": "^102.0.0",
+                "magento/module-checkout": "^100.2.0",
+                "magento/module-config": "^101.0.0",
+                "magento/module-customer": "^101.0.0",
+                "magento/module-directory": "^100.2.0",
+                "magento/module-eav": "^101.0.0",
+                "magento/module-integration": "^100.2.0",
+                "magento/module-multishipping": "^100.2.0",
+                "magento/module-quote": "^101.0.0",
+                "magento/module-sales": "^101.0.0",
+                "magento/module-shipping": "^100.2.0",
+                "magento/module-store": "^100.2.0",
+                "magento/module-tax": "^100.2.0",
+                "magento/module-ui": "^101.0.0",
+                "monolog/monolog": "^1.17.0",
+                "psr/log": "~1.0",
+                "zendframework/zend-http": "^2.6.0"
+            },
+            "vendor": "temando"
+        },
+        "magento/module-catalog-analytics": {
+            "name": "magento/module-catalog-analytics",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-catalog-analytics/magento-module-catalog-analytics-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "a83e9118b7297894b03e03505aa7e7e31342ac2c"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\CatalogAnalytics\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-catalog": "103.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-customer-analytics": {
+            "name": "magento/module-customer-analytics",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-customer-analytics/magento-module-customer-analytics-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "ce33d93a2c8de55ce77e6f28b597f497b553ef79"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\CustomerAnalytics\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-customer": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-release-notification": {
+            "name": "magento/module-release-notification",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-release-notification/magento-module-release-notification-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "35dd82e786fa57e432a5bde51ff3920f1be9cbbb"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\ReleaseNotification\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-user": "101.1.*",
+                "magento/module-backend": "101.0.*",
+                "magento/module-ui": "101.1.*",
+                "magento/framework": "102.0.*"
+            },
+            "suggest": {
+                "magento/module-config": "101.1.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-sales-analytics": {
+            "name": "magento/module-sales-analytics",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-sales-analytics/magento-module-sales-analytics-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "efaf8485bee8c8a6f706169041c38a9bda705f2b"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\SalesAnalytics\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-sales": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-wishlist-analytics": {
+            "name": "magento/module-wishlist-analytics",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-wishlist-analytics/magento-module-wishlist-analytics-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "b041a82ebf3ffaad17b7f502226cea2651da7b93"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\WishlistAnalytics\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-wishlist": "101.1.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-analytics": {
+            "name": "magento/module-analytics",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-analytics/magento-module-analytics-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "3c060cfa97efc0b6a0ba390d52cf9f15db7b6443"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\Analytics\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-backend": "101.0.*",
+                "magento/module-config": "101.1.*",
+                "magento/module-integration": "100.3.*",
+                "magento/module-store": "100.3.*",
+                "magento/framework": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-instant-purchase": {
+            "name": "magento/module-instant-purchase",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-instant-purchase/magento-module-instant-purchase-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "d19d6a34c355f3a4c95ac43563e0386b8896ce1b"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InstantPurchase\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-store": "100.3.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-customer": "102.0.*",
+                "magento/module-sales": "102.0.*",
+                "magento/module-shipping": "100.3.*",
+                "magento/module-quote": "101.1.*",
+                "magento/module-vault": "101.1.*",
+                "magento/framework": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-quote-analytics": {
+            "name": "magento/module-quote-analytics",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-quote-analytics/magento-module-quote-analytics-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "821808e85434d7b68029b9d9bb301d66ae13acb1"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\QuoteAnalytics\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-quote": "101.1.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-review-analytics": {
+            "name": "magento/module-review-analytics",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-review-analytics/magento-module-review-analytics-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "96e32208fec80e474a3de6f95689504ee0bc28b9"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\ReviewAnalytics\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-review": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "vertex/module-tax": {
+            "name": "vertex/module-tax",
+            "description": "Vertex Tax Links for Magento 2",
+            "keywords": [],
+            "homepage": "",
+            "version": "2.1.8",
+            "version_normalized": "2.1.8.0",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/vertex/module-tax/vertex-module-tax-2.1.8.0.zip",
+                "reference": null,
+                "shasum": "8364f8157551026541e411dc024e16574765990c"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Vertex\\Tax\\": ""
+                }
+            },
+            "require": {
+                "php": "^5.5.22|^7.0",
+                "ext-soap": "*",
+                "ext-simplexml": "*",
+                "magento/framework": "^100.0.2|^101.0.0",
+                "magento/module-backend": "^100.0.2",
+                "magento/module-catalog": "^100.0.2|^101.0.0|^102.0.0",
+                "magento/module-config": "^100.0.2|^101.0.0",
+                "magento/module-customer": "^100.0.2|^101.0.0",
+                "magento/module-directory": "^100.0.2",
+                "magento/module-eav": "^100.0.2|^101.0.0",
+                "magento/module-store": "^100.0.2",
+                "magento/module-quote": "^100.0.2|^101.0.0",
+                "magento/module-sales": "^100.0.2|^101.0.0",
+                "magento/module-shipping": "^100.0.2",
+                "magento/module-tax": "<=100.2.5"
+            },
+            "require-dev": {
+                "magento/marketplace-eqp": "^1.0",
+                "phpunit/phpunit": "~6.2.0",
+                "magento/magento2-functional-testing-framework": "^1.0",
+                "vlucas/phpdotenv": "^2.4",
+                "allure-framework/allure-codeception": "^1.2",
+                "magento/module-offline-shipping": "^100.2",
+                "magento/module-usps": "^100.2",
+                "phpmd/phpmd": "^2.6"
+            },
+            "suggest": {
+                "magento/module-gift-wrapping": "Vertex Tax Links for Magento 2 also supports Magento's Gift Wrapping module",
+                "magento/module-gift-card-account": "Vertex Tax Links for Magento 2 also supports Magento's Gift Card Account module",
+                "magento/module-checkout": "Vertex Tax Links for Magento 2 also supports Magento's Checkout module",
+                "magento/module-multishipping": "Vertex Tax Links for Magento 2 also supports Magento's Multishipping module",
+                "magento/module-reward": "Vertex Tax Links for Magento 2 also supports Magento's Reward module"
+            },
+            "conflict": {
+                "magento/module-gift-wrapping": ">101.0.3",
+                "vertex/tax-ee": "*",
+                "vertex/tax": "*",
+                "pixafy/tax-ee": "*",
+                "pixafy/tax": "*"
+            },
+            "vendor": "vertex"
+        },
+        "klarna/module-ordermanagement": {
+            "name": "klarna/module-ordermanagement",
+            "description": "Klarna Order Management Magento 2 Extension",
+            "keywords": [],
+            "homepage": "",
+            "version": "4.1.3",
+            "version_normalized": "4.1.3.0",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Joe Constant",
+                    "email": "joe.constant@klarna.com"
+                },
+                {
+                    "name": "Jason Grim",
+                    "email": "jason.grim@klarna.com"
+                }
+            ],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/klarna/module-ordermanagement/klarna-module-ordermanagement-4.1.3.0.zip",
+                "reference": null,
+                "shasum": "7ddd04f8d505065e379a18790699a713aef5bf2a"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "psr-4": {
+                    "Klarna\\Ordermanagement\\": "."
+                },
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "require": {
+                "php": "^5.6|~7.0.13|~7.1.0",
+                "klarna/module-core": "^4.0",
+                "magento/framework": "^100.1||^101.0",
+                "magento/module-payment": "^100.1",
+                "magento/module-quote": "^100.1||^101.0",
+                "magento/module-sales": "^100.1||^101.0",
+                "magento/module-store": "^100.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~6.2.0",
+                "phpmd/phpmd": "@stable",
+                "pdepend/pdepend": "^2.5",
+                "friendsofphp/php-cs-fixer": "~2.1.1",
+                "lusitanian/oauth": "~0.8.10",
+                "sebastian/phpcpd": "2.0.4",
+                "mikey179/vfsstream": "^1.6",
+                "phpro/grumphp": "^0.12.1",
+                "theseer/phpdox": "^0.10.1",
+                "phploc/phploc": "^4.0",
+                "squizlabs/php_codesniffer": "^3.2",
+                "jakub-onderka/php-parallel-lint": "^0.9.2",
+                "jakub-onderka/php-console-highlighter": "^0.3.2",
+                "magento/framework": "^101.0.0",
+                "magento-ecg/coding-standard": "^3.1"
+            },
+            "replace": {
+                "klarna/module-om": "*"
+            },
+            "vendor": "klarna"
+        },
+        "magento/inventory-composer-metapackage": {
+            "name": "magento/inventory-composer-metapackage",
+            "description": "Metapackage with Magento Inventory modules for simple installation",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/inventory-composer-metapackage/magento-inventory-composer-metapackage-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "29012675a7fc299d1e1492d4f717762730064861"
+            },
+            "type": "metapackage",
+            "require": {
+                "magento/inventory-composer-installer": "1.0.0-beta",
+                "magento/module-inventory": "1.0.0-beta",
+                "magento/module-inventory-admin-ui": "1.0.0-beta",
+                "magento/module-inventory-api": "1.0.0-beta",
+                "magento/module-inventory-bundle-product": "1.0.0-beta",
+                "magento/module-inventory-cache": "1.0.0-beta",
+                "magento/module-inventory-configurable-product": "1.0.0-beta",
+                "magento/module-inventory-catalog-api": "1.0.0-beta",
+                "magento/module-inventory-catalog": "1.0.0-beta",
+                "magento/module-inventory-catalog-admin-ui": "1.0.0-beta",
+                "magento/module-inventory-catalog-search": "1.0.0-beta",
+                "magento/module-inventory-configurable-product-admin-ui": "1.0.0-beta",
+                "magento/module-inventory-configurable-product-indexer": "1.0.0-beta",
+                "magento/module-inventory-configuration": "1.0.0-beta",
+                "magento/module-inventory-configuration-api": "1.0.0-beta",
+                "magento/module-inventory-grouped-product": "1.0.0-beta",
+                "magento/module-inventory-import-export": "1.0.0-beta",
+                "magento/module-inventory-indexer": "1.0.0-beta",
+                "magento/module-inventory-multi-dimensional-indexer-api": "1.0.0-beta",
+                "magento/module-inventory-low-quantity-notification": "1.0.0-beta",
+                "magento/module-inventory-low-quantity-notification-api": "1.0.0-beta",
+                "magento/module-inventory-low-quantity-notification-admin-ui": "1.0.0-beta",
+                "magento/module-inventory-product-alert": "1.0.0-beta",
+                "magento/module-inventory-reservations": "1.0.0-beta",
+                "magento/module-inventory-reservations-api": "1.0.0-beta",
+                "magento/module-inventory-sales": "1.0.0-beta",
+                "magento/module-inventory-sales-admin-ui": "1.0.0-beta",
+                "magento/module-inventory-sales-api": "1.0.0-beta",
+                "magento/module-inventory-sales-frontend-ui": "1.0.0-beta",
+                "magento/module-inventory-shipping": "1.0.0-beta",
+                "magento/module-inventory-shipping-admin-ui": "1.0.0-beta",
+                "magento/module-inventory-source-selection-api": "1.0.0-beta",
+                "magento/module-inventory-source-selection": "1.0.0-beta"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-source-selection-api": {
+            "name": "magento/module-inventory-source-selection-api",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-source-selection-api/magento-module-inventory-source-selection-api-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "a523231ef4736ce795e7ea18cb46b5a1193c4aee"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventorySourceSelectionApi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-source-selection": {
+            "name": "magento/module-inventory-source-selection",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-source-selection/magento-module-inventory-source-selection-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "4d79724feef15bbb2b3e8342ffa6190c70c66cb5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventorySourceSelection\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-inventory-source-selection-api": "1.0.*",
+                "magento/module-inventory-api": "1.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-shipping-admin-ui": {
+            "name": "magento/module-inventory-shipping-admin-ui",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-shipping-admin-ui/magento-module-inventory-shipping-admin-ui-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "6a559763ac78da89b02f445a110d0bcdfaf6e78a"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryShippingAdminUi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-backend": "101.0.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-inventory-configuration-api": "1.0.*",
+                "magento/module-inventory-sales-api": "1.0.*",
+                "magento/module-inventory-source-selection-api": "1.0.*",
+                "magento/module-sales": "102.0.*",
+                "magento/module-shipping": "100.3.*",
+                "magento/module-ui": "101.1.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-shipping": {
+            "name": "magento/module-inventory-shipping",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-shipping/magento-module-inventory-shipping-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "33066f8cc1226a0ad11763e769879e06c910a311"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryShipping\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-inventory-catalog-api": "1.0.*",
+                "magento/module-inventory-configuration-api": "1.0.*",
+                "magento/module-inventory-sales-api": "1.0.*",
+                "magento/module-inventory-source-selection-api": "1.0.*",
+                "magento/module-sales": "102.0.*",
+                "magento/module-shipping": "100.3.*",
+                "magento/module-store": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-sales-frontend-ui": {
+            "name": "magento/module-inventory-sales-frontend-ui",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-sales-frontend-ui/magento-module-inventory-sales-frontend-ui-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "2d9d8c9212d948128121d2d0cad073f4956d8225"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventorySalesFrontendUi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-catalog-inventory": "100.3.*",
+                "magento/module-inventory-sales-api": "1.0.*",
+                "magento/module-inventory-configuration-api": "1.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-sales-api": {
+            "name": "magento/module-inventory-sales-api",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-sales-api/magento-module-inventory-sales-api-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "a4845f38e7a711b7b5b81779920b8c01aae6e354"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventorySalesApi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-sales": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-sales-admin-ui": {
+            "name": "magento/module-inventory-sales-admin-ui",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-sales-admin-ui/magento-module-inventory-sales-admin-ui-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "66825281d18b0d9ecd19f6730246063ba4e17631"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventorySalesAdminUi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-backend": "101.0.*",
+                "magento/module-catalog-inventory": "100.3.*",
+                "magento/module-inventory-admin-ui": "1.0.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-inventory-catalog-api": "1.0.*",
+                "magento/module-inventory-sales-api": "1.0.*",
+                "magento/module-inventory-configuration-api": "1.0.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-store": "100.3.*",
+                "magento/module-ui": "101.1.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-sales": {
+            "name": "magento/module-inventory-sales",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-sales/magento-module-inventory-sales-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "2693c17175e4d9ca0efee5058e6f3733e7babc26"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventorySales\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-catalog-inventory": "100.3.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-inventory-catalog-api": "1.0.*",
+                "magento/module-inventory-configuration-api": "1.0.*",
+                "magento/module-inventory-reservations-api": "1.0.*",
+                "magento/module-inventory-sales-api": "1.0.*",
+                "magento/module-sales-inventory": "100.3.*",
+                "magento/module-store": "100.3.*",
+                "magento/module-sales": "102.0.*"
+            },
+            "require-dev": {
+                "magento/module-inventory-indexer": "*"
+            },
+            "suggest": {
+                "magento/module-inventory-catalog": "1.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-reservations-api": {
+            "name": "magento/module-inventory-reservations-api",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-reservations-api/magento-module-inventory-reservations-api-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "38770e820c9ebf85de15c0349f4de0959950887a"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryReservationsApi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-reservations": {
+            "name": "magento/module-inventory-reservations",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-reservations/magento-module-inventory-reservations-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "df1fd1f18227c4dd507bf23c0f6f67eefe7a0661"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryReservations\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-inventory-reservations-api": "1.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-product-alert": {
+            "name": "magento/module-inventory-product-alert",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-product-alert/magento-module-inventory-product-alert-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "c0d3d749ccd353ab25fb89f9d917f8a7aad156b3"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryProductAlert\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-store": "100.3.*",
+                "magento/module-backend": "101.0.*",
+                "magento/module-product-alert": "100.3.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-inventory-sales-api": "1.0.*"
+            },
+            "suggest": {
+                "magento/module-product-alert": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-multi-dimensional-indexer-api": {
+            "name": "magento/module-inventory-multi-dimensional-indexer-api",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-multi-dimensional-indexer-api/magento-module-inventory-multi-dimensional-indexer-api-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "7d188dc7eb7a8c96b102f9da0cb2f81d9b907ac7"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryMultiDimensionalIndexerApi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-low-quantity-notification-api": {
+            "name": "magento/module-inventory-low-quantity-notification-api",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-low-quantity-notification-api/magento-module-inventory-low-quantity-notification-api-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "06444dbf97580f0aad7b8189b4a6d8b45d71055f"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryLowQuantityNotificationApi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-low-quantity-notification-admin-ui": {
+            "name": "magento/module-inventory-low-quantity-notification-admin-ui",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-low-quantity-notification-admin-ui/magento-module-inventory-low-quantity-notification-admin-ui-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "6030ebb4bce5a608d447bec89897e9a041bac7a8"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryLowQuantityNotificationAdminUi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-backend": "101.0.*",
+                "magento/module-reports": "100.3.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-inventory-configuration-api": "1.0.*",
+                "magento/module-inventory-low-quantity-notification-api": "1.0.*",
+                "magento/module-inventory-low-quantity-notification": "1.0.*",
+                "magento/module-ui": "101.1.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-low-quantity-notification": {
+            "name": "magento/module-inventory-low-quantity-notification",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-low-quantity-notification/magento-module-inventory-low-quantity-notification-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "aa3c895053386bc332993173dcd3560b7a42c14a"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryLowQuantityNotification\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-eav": "102.0.*",
+                "magento/module-catalog-inventory": "100.3.*",
+                "magento/module-inventory": "1.0.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-inventory-catalog-api": "1.0.*",
+                "magento/module-inventory-configuration-api": "1.0.*",
+                "magento/module-inventory-low-quantity-notification-api": "1.0.*",
+                "magento/module-store": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-indexer": {
+            "name": "magento/module-inventory-indexer",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-indexer/magento-module-inventory-indexer-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "1c62ca8bf27fe515f309e12fe6cddade27c670a8"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryIndexer\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-inventory-multi-dimensional-indexer-api": "1.0.*",
+                "magento/module-inventory": "1.0.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-inventory-catalog-api": "1.0.*",
+                "magento/module-inventory-sales-api": "1.0.*",
+                "magento/module-inventory-sales": "1.0.*"
+            },
+            "suggest": {
+                "magento/module-catalog": "103.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-import-export": {
+            "name": "magento/module-inventory-import-export",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-import-export/magento-module-inventory-import-export-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "5c37e55e5f66c3d2a95d1ee4d4f8928012544f4b"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryImportExport\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-eav": "102.0.*",
+                "magento/module-import-export": "100.3.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-inventory": "1.0.*",
+                "magento/module-inventory-catalog-api": "1.0.*",
+                "magento/module-store": "100.3.*"
+            },
+            "suggest": {
+                "magento/module-catalog-import-export": "0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-grouped-product": {
+            "name": "magento/module-inventory-grouped-product",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-grouped-product/magento-module-inventory-grouped-product-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "1b3eb400030b22ee5bb4e0072898e95e841e0408"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryGroupedProduct\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-grouped-product": "100.3.*"
+            },
+            "suggest": {
+                "magento/module-inventory-configuration-api": "1.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-configuration-api": {
+            "name": "magento/module-inventory-configuration-api",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-configuration-api/magento-module-inventory-configuration-api-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "63f11e0b430000875b9e057987bc3ae6ae6cfe0c"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryConfigurationApi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-configuration": {
+            "name": "magento/module-inventory-configuration",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-configuration/magento-module-inventory-configuration-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "78a1d6549fd796f337028795df098b6181891dce"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryConfiguration\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-catalog-inventory": "100.3.*",
+                "magento/module-inventory-catalog-api": "1.0.*",
+                "magento/module-inventory-configuration-api": "1.0.*",
+                "magento/module-inventory-sales-api": "1.0.*",
+                "magento/module-store": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-configurable-product-indexer": {
+            "name": "magento/module-inventory-configurable-product-indexer",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-configurable-product-indexer/magento-module-inventory-configurable-product-indexer-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "550bc1af7bc60e7a17bed193c5754c7df7200c3f"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryConfigurableProductIndexer\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-inventory-catalog-api": "1.0.*",
+                "magento/module-inventory-indexer": "1.0.*",
+                "magento/module-inventory-multi-dimensional-indexer-api": "1.0.*"
+            },
+            "suggest": {
+                "magento/module-inventory": "1.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-configurable-product-admin-ui": {
+            "name": "magento/module-inventory-configurable-product-admin-ui",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-configurable-product-admin-ui/magento-module-inventory-configurable-product-admin-ui-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "9ecccdc4de95631e7f50144e05654eaaa7177dd4"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryConfigurableProductAdminUi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-configurable-product": "100.3.*",
+                "magento/module-ui": "101.1.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-inventory-catalog-api": "1.0.*",
+                "magento/module-inventory-catalog-admin-ui": "1.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-configurable-product": {
+            "name": "magento/module-inventory-configurable-product",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-configurable-product/magento-module-inventory-configurable-product-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "7cb20ee22d96fad27f8ab21e744dbd33b34a811e"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryConfigurableProduct\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-inventory-sales": "1.0.*",
+                "magento/module-inventory-sales-api": "1.0.*",
+                "magento/module-inventory-indexer": "1.0.*",
+                "magento/module-store": "100.3.*",
+                "magento/module-catalog-inventory": "100.3.*"
+            },
+            "suggest": {
+                "magento/module-configurable-product": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-catalog-api": {
+            "name": "magento/module-inventory-catalog-api",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog-api/magento-module-inventory-catalog-api-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "6d3d859dc10b2793d6b7b76b5172e9b4c1b51296"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryCatalogApi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-catalog-admin-ui": {
+            "name": "magento/module-inventory-catalog-admin-ui",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog-admin-ui/magento-module-inventory-catalog-admin-ui-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "ede4c6b124af187d57a404584d3f194da228f38f"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryCatalogAdminUi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-catalog-inventory": "100.3.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-ui": "101.1.*",
+                "magento/module-inventory-catalog-api": "1.0.*",
+                "magento/module-inventory-configuration-api": "1.0.*",
+                "magento/module-inventory-indexer": "1.0.*"
+            },
+            "suggest": {
+                "magento/module-inventory-admin-ui": "1.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-catalog": {
+            "name": "magento/module-inventory-catalog",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog/magento-module-inventory-catalog-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "143f82ccaafd5e17593cff433d0cca943d66aa1b"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryCatalog\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-catalog-inventory": "100.3.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-inventory-catalog-api": "1.0.*",
+                "magento/module-store": "100.3.*",
+                "magento/module-inventory": "1.0.*",
+                "magento/module-inventory-configuration-api": "1.0.*",
+                "magento/module-inventory-indexer": "1.0.*",
+                "magento/module-inventory-sales-api": "1.0.*"
+            },
+            "suggest": {
+                "magento/module-inventory-reservations-api": "1.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-bundle-product": {
+            "name": "magento/module-inventory-bundle-product",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-bundle-product/magento-module-inventory-bundle-product-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "0b7f7a38894e9dd6590813a55342b4936e9b6c39"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryBundleProduct\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-bundle": "100.3.*"
+            },
+            "suggest": {
+                "magento/module-inventory-configuration-api": "1.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-api": {
+            "name": "magento/module-inventory-api",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-api/magento-module-inventory-api-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "34b61ba3fd78feae88d14da9a1158f20f3b52bad"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryApi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-admin-ui": {
+            "name": "magento/module-inventory-admin-ui",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-admin-ui/magento-module-inventory-admin-ui-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "7e699f285745f109b697122d8dac0a5eecd54c1b"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryAdminUi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-inventory-api": "1.0.*",
+                "magento/module-backend": "101.0.*",
+                "magento/module-directory": "100.3.*",
+                "magento/module-ui": "101.1.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory": {
+            "name": "magento/module-inventory",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory/magento-module-inventory-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "c1f37cded6e847d0d46f44184199ea81f06d434c"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\Inventory\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-inventory-api": "1.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-cache": {
+            "name": "magento/module-inventory-cache",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-cache/magento-module-inventory-cache-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "19a7253ae7061ba359b3e3d1f3a4a41863e7143b"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryCache\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-inventory-catalog-api": "1.0.*",
+                "magento/module-inventory-indexer": "1.0.*"
+            },
+            "suggest": {
+                "magento/module-catalog": "103.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-inventory-catalog-search": {
+            "name": "magento/module-inventory-catalog-search",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0-beta",
+            "version_normalized": "1.0.0.0-beta",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-inventory-catalog-search/magento-module-inventory-catalog-search-1.0.0.0-beta.zip",
+                "reference": null,
+                "shasum": "0ae898d1abcaf0f866683e68cc556bd790fd3c46"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\InventoryCatalogSearch\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-inventory-sales-api": "1.0.*",
+                "magento/module-inventory-indexer": "1.0.*",
+                "magento/module-store": "100.3.*"
+            },
+            "suggest": {
+                "magento/module-catalog-search": "101.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-bundle-graph-ql": {
+            "name": "magento/module-bundle-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-bundle-graph-ql/magento-module-bundle-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "05ae5ba0efb80634bc59ddf6fb4de373d8091e54"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\BundleGraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-bundle": "100.3.*",
+                "magento/module-catalog-graph-ql": "100.3.*",
+                "magento/module-store": "100.3.*",
+                "magento/framework": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-catalog-url-rewrite-graph-ql": {
+            "name": "magento/module-catalog-url-rewrite-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-catalog-url-rewrite-graph-ql/magento-module-catalog-url-rewrite-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "a7f25e85ebcc3222539e73aa1c73c428898f2fbe"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\CatalogUrlRewriteGraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*"
+            },
+            "suggest": {
+                "magento/module-catalog-url-rewrite": "100.3.*",
+                "magento/module-catalog-graph-ql": "100.3.*",
+                "magento/module-url-rewrite-graph-ql": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-configurable-product-graph-ql": {
+            "name": "magento/module-configurable-product-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-configurable-product-graph-ql/magento-module-configurable-product-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "4b65a7844b7e5206936f02fe5fdf0ee3a4518966"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\ConfigurableProductGraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-configurable-product": "100.3.*",
+                "magento/module-catalog-graph-ql": "100.3.*",
+                "magento/framework": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-customer-graph-ql": {
+            "name": "magento/module-customer-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-customer-graph-ql/magento-module-customer-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "80c23742fd0cb4a05074f0f20ff63a9dfc9485a7"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\CustomerGraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-customer": "102.0.*",
+                "magento/module-authorization": "100.3.*",
+                "magento/framework": "102.0.*"
+            },
+            "suggest": {
+                "magento/module-graph-ql": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-grouped-product-graph-ql": {
+            "name": "magento/module-grouped-product-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-grouped-product-graph-ql/magento-module-grouped-product-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "af80e1a760395e2a19daf03880e8af13e8a5ee4b"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\GroupedProductGraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-grouped-product": "100.3.*",
+                "magento/module-catalog-graph-ql": "100.3.*",
+                "magento/framework": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-swatches-graph-ql": {
+            "name": "magento/module-swatches-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-swatches-graph-ql/magento-module-swatches-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "29f59dc640477b5df3d83b94d87704570d2696a5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\SwatchesGraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-swatches": "100.3.*",
+                "magento/module-catalog": "103.0.*"
+            },
+            "suggest": {
+                "magento/module-catalog-graph-ql": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-weee-graph-ql": {
+            "name": "magento/module-weee-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-weee-graph-ql/magento-module-weee-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "39e2a7c5d0747e75d3e499945d82b163014f9d17"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\WeeeGraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*"
+            },
+            "suggest": {
+                "magento/module-weee": "100.3.*",
+                "magento/module-catalog-graph-ql": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-catalog-graph-ql": {
+            "name": "magento/module-catalog-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-catalog-graph-ql/magento-module-catalog-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "ce0f8fa7d7f2e7e4cedba48e600a5b9de52bd315"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\CatalogGraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-eav": "102.0.*",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-catalog-inventory": "100.3.*",
+                "magento/module-search": "101.0.*",
+                "magento/module-store": "100.3.*",
+                "magento/module-eav-graph-ql": "100.3.*",
+                "magento/framework": "102.0.*"
+            },
+            "suggest": {
+                "magento/module-graph-ql": "100.3.*",
+                "magento/module-store-graph-ql": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-cms-url-rewrite-graph-ql": {
+            "name": "magento/module-cms-url-rewrite-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-cms-url-rewrite-graph-ql/magento-module-cms-url-rewrite-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "b0afd2dae7cf5b60df692403b19a3509e6e65fab"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\CmsUrlRewriteGraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-url-rewrite-graph-ql": "100.3.*",
+                "magento/module-store": "100.3.*",
+                "magento/module-cms": "102.1.*"
+            },
+            "suggest": {
+                "magento/module-cms-url-rewrite": "100.3.*",
+                "magento/module-catalog-graph-ql": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-downloadable-graph-ql": {
+            "name": "magento/module-downloadable-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-downloadable-graph-ql/magento-module-downloadable-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "8e5500db412b8e7ce475d61ffce7403b4ccef152"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\DownloadableGraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-catalog": "103.0.*",
+                "magento/module-downloadable": "100.3.*",
+                "magento/framework": "102.0.*"
+            },
+            "suggest": {
+                "magento/module-catalog-graph-ql": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-eav-graph-ql": {
+            "name": "magento/module-eav-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-eav-graph-ql/magento-module-eav-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "6048836302d9640d0860f721a88cf8c5ec27e20e"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\EavGraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*"
+            },
+            "suggest": {
+                "magento/module-graph-ql": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-graph-ql": {
+            "name": "magento/module-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-graph-ql/magento-module-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "09f380a044137ba3cf103126bb8f3b1bf433bb95"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\GraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/module-authorization": "100.3.*",
+                "magento/module-store": "100.3.*",
+                "magento/module-eav": "102.0.*",
+                "magento/framework": "102.0.*"
+            },
+            "suggest": {
+                "magento/module-webapi": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-store-graph-ql": {
+            "name": "magento/module-store-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-store-graph-ql/magento-module-store-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "689cdfbf40ec3581b9c91e3ca07a2fa55500d507"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\StoreGraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*"
+            },
+            "suggest": {
+                "magento/module-graph-ql": "100.3.*",
+                "magento/module-catalog-graph-ql": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-swagger-webapi": {
+            "name": "magento/module-swagger-webapi",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-swagger-webapi/magento-module-swagger-webapi-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "c2501130c598875c86038bcb0a40e8f2c6b2f092"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\SwaggerWebapi\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-swagger": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-swagger-webapi-async": {
+            "name": "magento/module-swagger-webapi-async",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-swagger-webapi-async/magento-module-swagger-webapi-async-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "ca6f514d7c039a0ac79ca72316b2b26518f50050"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\SwaggerWebapiAsync\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-swagger": "100.3.*"
+            },
+            "suggest": {
+                "magento/module-config": "101.1.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-tax-graph-ql": {
+            "name": "magento/module-tax-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-tax-graph-ql/magento-module-tax-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "1065fd69236cdc039ab8ecdfcec1f89787a23d38"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\TaxGraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*"
+            },
+            "suggest": {
+                "magento/module-tax": "100.3.*",
+                "magento/module-catalog-graph-ql": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-tinymce-3": {
+            "name": "magento/module-tinymce-3",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-tinymce-3/magento-module-tinymce-3-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "94110c44bc3885b71b4ade2584b6b892a3e2abc5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\Tinymce3\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-ui": "101.1.*",
+                "magento/module-variable": "100.3.*",
+                "magento/module-widget": "101.1.*"
+            },
+            "suggest": {
+                "magento/module-cms": "102.1.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-url-rewrite-graph-ql": {
+            "name": "magento/module-url-rewrite-graph-ql",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-url-rewrite-graph-ql/magento-module-url-rewrite-graph-ql-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "d0ee81222e7a306f5546bd012b23f427953ace41"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\UrlRewriteGraphQl\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-url-rewrite": "101.1.*",
+                "magento/module-store": "100.3.*"
+            },
+            "suggest": {
+                "magento/module-graph-ql": "100.3.*"
+            },
+            "vendor": "magento"
+        },
+        "magento/module-webapi-async": {
+            "name": "magento/module-webapi-async",
+            "description": "N/A",
+            "keywords": [],
+            "homepage": "",
+            "version": "100.3.0-alpha55",
+            "version_normalized": "100.3.0.0-alpha55",
+            "license": [
+                "OSL-3.0",
+                "AFL-3.0"
+            ],
+            "authors": [],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/magento/module-webapi-async/magento-module-webapi-async-100.3.0.0-alpha55.zip",
+                "reference": null,
+                "shasum": "e3b78131133f36a7bf27f47c4c1b0c55672bef33"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Magento\\WebapiAsync\\": ""
+                }
+            },
+            "require": {
+                "php": "~7.1.3||~7.2.0",
+                "magento/framework": "102.0.*",
+                "magento/module-webapi": "100.3.*",
+                "magento/module-asynchronous-operations": "100.3.*"
+            },
+            "suggest": {
+                "magento/module-user": "101.1.*",
+                "magento/module-customer": "102.0.*"
+            },
+            "vendor": "magento"
+        },
+        "msp/twofactorauth": {
+            "name": "msp/twofactorauth",
+            "description": "Two Factor Authentication module for Magento2 - Member of MageSpecialist SecuritySuite",
+            "keywords": [],
+            "homepage": "",
+            "version": "3.0.0",
+            "version_normalized": "3.0.0.0",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Riccardo Tempesta",
+                    "email": "riccardo.tempesta@magespecialist.it"
+                }
+            ],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/msp/twofactorauth/msp-twofactorauth-3.0.0.0.zip",
+                "reference": null,
+                "shasum": "ba56d984ae834a8e87a76aed81bcaf6fd6d811b1"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MSP\\TwoFactorAuth\\": ""
+                }
+            },
+            "require": {
+                "php": "^7.0|^7.1|^7.2",
+                "magento/magento-composer-installer": "*",
+                "christian-riesen/base32": "^1.3",
+                "spomky-labs/otphp": "~8.3",
+                "endroid/qr-code": "^2.5",
+                "donatj/phpuseragentparser": "~0.7",
+                "yubico/u2flib-server": "^1.0"
+            },
+            "suggest": {
+                "msp/security-suite": "Full MageSpecialist Security Suite"
+            },
+            "vendor": "msp"
+        },
+        "msp/recaptcha": {
+            "name": "msp/recaptcha",
+            "description": "Google reCaptcha integration for Magento2 - Member of MageSpecialist SecuritySuite",
+            "keywords": [],
+            "homepage": "",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "license": [
+                "OSL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Riccardo Tempesta",
+                    "email": "riccardo.tempesta@magespecialist.it"
+                }
+            ],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/msp/recaptcha/msp-recaptcha-2.0.0.0.zip",
+                "reference": null,
+                "shasum": "9ea10df3e275a82072840cfbb0bf2a7a98693bdb"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "MSP\\ReCaptcha\\": ""
+                }
+            },
+            "require": {
+                "php": "^7.0|^7.1|^7.2",
+                "magento/magento-composer-installer": "*",
+                "google/recaptcha": "^1.1"
+            },
+            "suggest": {
+                "msp/security-suite": "Full MageSpecialist Security Suite"
+            },
+            "vendor": "msp"
+        },
+        "emizentech/shopbybrand": {
+            "name": "emizentech/shopbybrand",
+            "description": "Emizentech Shop By Brand",
+            "keywords": [],
+            "homepage": "",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "license": [
+                "Commercial"
+            ],
+            "authors": [
+                {
+                    "name": "Amit Samsukha",
+                    "email": "amit@emizentech.com"
+                }
+            ],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/emizentech/shopbybrand/emizentech-shopbybrand-1.0.0.0.zip",
+                "reference": null,
+                "shasum": "1bc37e3f3c5906deae53f07149de53be70b382cd"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Emizentech\\ShopByBrand\\": ""
+                }
+            },
+            "vendor": "emizentech"
+        },
+        "mage360/brands": {
+            "name": "mage360/brands",
+            "description": "Shop by brand extension for magento2",
+            "keywords": [
+                "magento2",
+                "magento",
+                "brands",
+                "Shop by brand"
+            ],
+            "homepage": "https://mage360.com/shop-by-brand/",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Qaiser Bashir",
+                    "email": "mail@mage360.co.uk",
+                    "homepage": "https://mage360.com",
+                    "role": "Developer"
+                }
+            ],
+            "dist": {
+                "type": "zip",
+                "url": "https://repo.magento.com/archives/mage360/brands/mage360-brands-1.0.0.0.zip",
+                "reference": null,
+                "shasum": "aa77f80bfff21dafad23b6b8af63926dc53abea6"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mage360\\Brands\\": ""
+                }
+            },
+            "vendor": "mage360"
+        }
+    }
+}

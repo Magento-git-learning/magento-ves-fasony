@@ -1,0 +1,11 @@
+<?php echo 'hi' ?>
+<?php 
+    $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+    $category = $objectManager->get('Magento\Framework\Registry')->registry('current_category');//get current category
+ 
+    echo $category->getId(). '<br />';
+    echo $category->getName(). '<br />';
+    echo $category->getUrl() . '<br />'; 
+    //print_r($category);
+?>
+

@@ -1,0 +1,6 @@
+"Code","Country","State","Zip/Post Code","Rate","Zip/Post is Range","Range From","Range To","default","france"
+"US-CA-*-Rate 1","US","CA","*","8.2500","","","","",""
+"US-NY-*-Rate 1","US","NY","*","8.3750","","","","",""
+"CGST","IN","GJ","*","2.5000","","","","",""
+"SGST","IN","GJ","*","2.5000","","","","",""
+"IGST","IN","*","*","5.0000","","","","",""

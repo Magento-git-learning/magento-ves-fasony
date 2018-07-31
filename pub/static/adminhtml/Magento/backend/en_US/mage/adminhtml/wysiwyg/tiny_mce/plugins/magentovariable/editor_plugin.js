@@ -1,0 +1,1 @@
+/home/chirag/public_html/ves_fasony/lib/web/mage/adminhtml/wysiwyg/tiny_mce/plugins/magentovariable/editor_plugin.js
